@@ -71,7 +71,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDele
     func initializeStatusBar() {
         let statusBar = NSStatusBar.system
         statusBarItem = statusBar.statusItem(withLength: NSStatusItem.squareLength)
-        statusBarItem.button?.title = "👁"
+        statusBarItem.button?.title = "􁂕"
         let statusBarMenu = NSMenu(title: "20-20-20 Menu")
         statusBarItem.menu = statusBarMenu
         
